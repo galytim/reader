@@ -11,6 +11,8 @@
   </head>
 
   <body>
+  <%= button_to "выйти в окно", destroy_user_session_path, method: :delete %>
+
     <%= yield %>
   </body>
 </html>
